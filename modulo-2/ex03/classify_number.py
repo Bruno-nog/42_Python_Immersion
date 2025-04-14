@@ -2,19 +2,22 @@ import sys
 
 av = int(sys.argv[1])
 
-def even(av):
+def even(av: int) -> bool:
+    """Return true if it is positive and false if it is negative"""
     if (av > 0):
         return True
     else:
         return False
 
-def odd(av):
+def odd(av: int) -> bool:
+    """Return true if it is positive and false if it is negative"""
     if (av > 0):
         return True
     else:
         return False
 
-def classify_nbr(av):
+def classify_nbr(av: int) -> None:
+    """Verify if the number is even or odd and if it is positive or negative."""
     iseven = None
     isodd = None
     if (av == 0):
