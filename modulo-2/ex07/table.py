@@ -15,4 +15,3 @@ if __name__ == "__main__":
         for num in range(10):
             table = gen_table(num)
             print(f"Table of {num}:", " ".join(map(str, table)))
-

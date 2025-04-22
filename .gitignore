@@ -1,0 +1,5 @@
+**/__pycache__/
+**/.pytest_cache/
+**/relatorio.json/
+**/.mypy_cache/
+**/.ruff_cache/
