@@ -1,9 +1,11 @@
 import sys
 
 def shrink(s: str) -> str:
+    """Cut the string if it is larger than 8 chars"""
     return s[:8]
 
 def enlarge(s: str) -> str:
+    """Fill the string with 'Z' 'till 8 chars"""
     return s + 'Z' * (8 - len(s))
 
 if __name__ == "__main__":

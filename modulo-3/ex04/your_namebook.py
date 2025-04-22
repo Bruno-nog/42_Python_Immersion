@@ -1,4 +1,5 @@
 def list_of_names(persons: dict[str, str]) -> list[str]:
+    """String capitalized"""
     full_names = []
     for first, last in persons.items():
         first_cap = first.capitalize()
