@@ -37,18 +37,18 @@ def test_fit_prep():
     
 def test_name_size():
     given = "MATHEUS FEREIRA DOS SANTOS PINTO NETO DAS NOBREGA DA SILVA ALBUQUERQUE DOSVALODS NOGUEIRA"
-    expected = False
+    expected = "MATHEUS NOGUEIRA"
     result = name_chop(given)
     assert result == expected
     
     given = "JHULIA CARVALHO"
-    expected = True
+    expected = "JHULIA CARVALHO"
     result = name_chop(given)
     assert result == expected
     
 def test_size26():
     given = "MATHEUS FEREIRA DOS SANTOS PINTO NETO DAS NOBREGA DA SILVA ALBUQUERQUE DOSVALODS NOGUEIRA"
-    expected = "MATHEUS FEREIRA DOS SANTOS"
+    expected = "MATHEUS NOGUEIRA"
     result = name_chop(given)
     assert result == expected
     
